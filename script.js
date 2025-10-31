@@ -3,7 +3,7 @@ const catImg = document.querySelector('.cats');
 getcatImg();
 
 async function getcatImg() {
-        const res = await fetch('https://api.thecatapi.com/v1/images/search?limit=25', {
+        const res = await fetch('https://api.thecatapi.com/v1/images/search?limit=10', {
         headers: {
              
         }
