@@ -5,7 +5,7 @@ getcatImg();
 async function getcatImg() {
         const res = await fetch('https://api.thecatapi.com/v1/images/search?limit=25', {
         headers: {
-            "x-api-key": "live_NrDTnrvlaYl49jCU2RSM1yU8BoA8hRdUFqRLogklKcQgZYz20VTNlspON5xX9HZF" 
+             
         }
 });
         const data = await res.json();
