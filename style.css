@@ -1,19 +1,40 @@
+* {
+    box-sizing: border-box;
+}
+
 .container {
     display: flex;
     flex-direction: column;
-    width: 400px;
+    width: 300px;
     height: 400px;
     justify-self: center;
     border: 2px solid black;
+    align-items: center;
+    
 }
 
 .cats {
-    max-width: 300px;
-    max-height: 300px;
+    padding: 20px;
+    width: 300px;
+    height: 300px;
     border-radius: 20px;
 }
 
 .wrapper {
-    justify-content: space-evenly;
+    display: flex;
+    margin: 20px;
+    gap: 30px;
+}
 
+button {
+    background-color: transparent;
+    border: 1px solid green;
+    font-size: x-large;
+    border-radius: 50%;
+    width: 70px;
+    height: 70px;
+}
+
+button:a hover {
+    
 }
